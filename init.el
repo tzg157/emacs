@@ -20,7 +20,7 @@
 (global-linum-mode t)
 (tool-bar-mode -1)
 (custom-set-variables
- ;; custom-set-variables was added by Custom.
+ ;; custom-set-variables was added by Custom.o
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
@@ -42,3 +42,5 @@
 (global-set-key [f8] 'neotree-toggle)
 
 ;;(setq neo-theme (if window-system 'icons 'arrow))
+(load-file "~/.emacs.d/themes/dracula-theme.el")
+(load-theme 'dracula t)
