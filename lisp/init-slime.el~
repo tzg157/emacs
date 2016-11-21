@@ -1,0 +1,6 @@
+(setq inferior-lisp-program "/usr/bin/sbcl")
+(add-to-list 'load-path "~/.emacs.d/elpa/slime/")
+(require 'slime)
+(slime-setup)
+
+(provide 'init-slime)
