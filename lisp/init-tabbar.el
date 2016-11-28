@@ -4,6 +4,6 @@
 (global-set-key [M-right] 'tabbar-forward-tab)
 
 (require 'tabbar)
-(tabbar-mode)
+(tabbar-mode t)
 
 (provide 'init-tabbar)

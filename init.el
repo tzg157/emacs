@@ -22,6 +22,8 @@
 (require 'init-org)           ;; 加载org
 (require 'init-neo-tree)      ;; 加载文件浏览器插件
 (require 'init-tabbar)        ;; 加载tabbar配置
+(require 'init-company)       ;; 加载company配置
+(require 'init-recentf)       ;; 加载recentf配置
 
 (provide 'init)
 (custom-set-variables
