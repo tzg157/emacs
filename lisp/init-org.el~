@@ -1,6 +1,0 @@
-(require 'org)
-
-(eval-after-load "org"
-  '(require 'ox-md nil t))
-
-(privide 'init-org)
