@@ -1,2 +1,0 @@
-# emacs
-emacs学习
