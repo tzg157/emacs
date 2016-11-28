@@ -17,6 +17,7 @@
 (require 'init-global-config) ;; 一些全局配置
 (require 'init-utils)         ;; 加载一些自定义的函数、宏等
 (require 'init-elpa)          ;; 加载ELPA，并定义
+(require 'init-themes)        ;; 加载主题
 (require 'init-slime)         ;; 加载slime
 
 (provide 'init)
@@ -25,7 +26,9 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(package-selected-packages (quote (tabbar paredit slime-company slime))))
+ '(package-selected-packages
+   (quote
+    (cmds-menu cmm-mode tabbar slime-theme slime-ritz slime-docker slime-company slime-annot slim-mode paredit))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
