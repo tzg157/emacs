@@ -21,6 +21,7 @@
 (require 'init-slime)         ;; 加载slime
 (require 'init-org)           ;; 加载org
 (require 'init-neo-tree)      ;; 加载文件浏览器插件
+(require 'init-tabbar)        ;; 加载tabbar配置
 
 (provide 'init)
 (custom-set-variables
@@ -30,7 +31,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (neotree auto-org-md cmds-menu cmm-mode tabbar slime-theme slime-ritz slime-docker slime-company slime-annot slim-mode paredit))))
+    (popwin use-package tabbar slime-theme slime-ritz slime-docker slime-company slime-annot slim-mode paredit neotree darcula-theme cmm-mode cmds-menu auto-org-md))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
