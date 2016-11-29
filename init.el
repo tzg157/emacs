@@ -14,6 +14,7 @@
 
 ;; 下面每一个被require的feature都对应一个lisp/目录下的同名
 ;; elisp文件，例如：init-global-config、init-utils、init-elpa.el等
+(require 'init-env)           ;; 设置环境
 (require 'init-global-config) ;; 一些全局配置
 (require 'init-utils)         ;; 加载一些自定义的函数、宏等
 (require 'init-elpa)          ;; 加载ELPA，并定义
@@ -27,6 +28,7 @@
 (require 'init-helm)          ;; 加载helm配置
 ;(require 'init-sessions)      ;; 加载session配置
 (require 'init-neo-tree)      ;; 加载文件浏览器插件
+(require 'init-ggtags)        ;; 加载gnu global tags配置
 (provide 'init)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
