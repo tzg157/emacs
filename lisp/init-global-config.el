@@ -2,18 +2,28 @@
 
 (tool-bar-mode -1)       ;; 禁用工具条
 (scroll-bar-mode -1)     ;; 禁用滚动条
-(menu-bar-mode -1)       ;; 禁用菜单栏
+;; (menu-bar-mode -1)       ;; 禁用菜单栏
 (global-set-key [C-f6] 'global-linum-mode)    ;; 全局显示行号
 (show-paren-mode t)      ;; 显示括号匹配
 (setq inhibit-startup-message t)  ;; 禁用启动画面
 (setq display-battery-mode t)   ;;???????????
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 交换buffer开始
+(global-set-key (kbd "M-o")  'mode-line-other-buffer)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 交换buffer结束
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 最近打开开始
 ;(set-frame-font "Liberation Mono-13")
 ;(desktop-save-mode 1)
 (setq desktop-restore-frames nil)
 (desktop-save-mode 1)
+;(switch-to-buffer "init.el")
+;(delete-other-windows)
 ;(if window-system 
 ;	(desktop-save-mode 1))  ;; 打开emacs时，自动加载上次关闭时的buffer、major mode和位置等等
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 最近打开结束
+
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 显示时间开始
 

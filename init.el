@@ -20,11 +20,13 @@
 (require 'init-themes)        ;; 加载主题
 (require 'init-slime)         ;; 加载slime
 (require 'init-org)           ;; 加载org
-(require 'init-neo-tree)      ;; 加载文件浏览器插件
+(require 'init-ffip)          ;; 加载find-file-in-project配置
 (require 'init-tabbar)        ;; 加载tabbar配置
 (require 'init-company)       ;; 加载company配置
 (require 'init-recentf)       ;; 加载recentf配置
-
+(require 'init-helm)          ;; 加载helm配置
+;(require 'init-sessions)      ;; 加载session配置
+(require 'init-neo-tree)      ;; 加载文件浏览器插件
 (provide 'init)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -33,10 +35,10 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (flycheck company popwin use-package tabbar slime-theme slime-ritz slime-docker slime-company slime-annot slim-mode paredit neotree darcula-theme cmm-mode cmds-menu auto-org-md))))
+	(projectile ggtags session find-file-in-project helm flycheck company popwin use-package tabbar slime-theme slime-ritz slime-docker slime-company slime-annot slim-mode paredit neotree darcula-theme cmm-mode cmds-menu auto-org-md))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+)
