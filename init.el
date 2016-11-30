@@ -26,6 +26,7 @@
 (require 'init-company)       ;; 加载company配置
 (require 'init-recentf)       ;; 加载recentf配置
 (require 'init-helm)          ;; 加载helm配置
+(require 'init-file-search)   ;; 加载查找文件关键字配置
 ;(require 'init-sessions)      ;; 加载session配置
 (require 'init-neo-tree)      ;; 加载文件浏览器插件
 (require 'init-ggtags)        ;; 加载gnu global tags配置
@@ -37,10 +38,10 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-	(projectile ggtags session find-file-in-project helm flycheck company popwin use-package tabbar slime-theme slime-ritz slime-docker slime-company slime-annot slim-mode paredit neotree darcula-theme cmm-mode cmds-menu auto-org-md))))
+	(helm-grepint php-auto-yasnippets php+-mode projectile ggtags session find-file-in-project helm flycheck company popwin use-package tabbar slime-theme slime-ritz slime-docker slime-company slime-annot slim-mode paredit neotree darcula-theme cmm-mode cmds-menu auto-org-md))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
-)
+ )
