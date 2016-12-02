@@ -1,6 +1,8 @@
 *~
-auto-save-list
+auto-save-list/
 \#*
-.svn
+.svn/
 recentf*
 .emacs.desktop*
+
+elpa/

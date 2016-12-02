@@ -1,10 +1,11 @@
 (require 'helm)
 (require 'helm-config)
-;(require 'helm-dash)
+(require 'helm-dash)
 
 (helm-mode 1)
 (helm-autoresize-mode 1)
-;(setq helm-ff-auto-update-initial-value nil)    ; 禁止自动补全
+
+(setq helm-ff-auto-update-initial-value t)    ; 禁止自动补全
 
 (global-set-key (kbd "M-x") 'helm-M-x)
 (global-set-key (kbd "M-y") 'helm-show-kill-ring)
