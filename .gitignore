@@ -4,5 +4,7 @@ auto-save-list/
 .svn/
 recentf*
 .emacs.desktop*
-
+.cache/
 elpa/
+.sessiong
+*eld
