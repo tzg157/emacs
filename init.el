@@ -42,14 +42,9 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
-
-;; 加载eclime配置
-;; '(eclim-eclipse-dirs (quote ("~/eclipse/eclipse_neon/eclipse")))
-;; '(eclim-executable "~/eclipse/eclipse_neon/eclim")
-
  '(package-selected-packages
    (quote
-	(magit-svn magithub company-emacs-eclim eclim helm-company helm-git magit helm-smex company-php ac-php helm-grepint php-auto-yasnippets php+-mode projectile ggtags session find-file-in-project helm flycheck company popwin use-package tabbar slime-theme slime-ritz slime-docker slime-company slime-annot slim-mode paredit neotree darcula-theme cmm-mode cmds-menu auto-org-md))))
+	(smex magit-svn magithub company-emacs-eclim eclim helm-company helm-git magit helm-smex company-php ac-php helm-grepint php-auto-yasnippets php+-mode projectile ggtags session find-file-in-project helm flycheck company popwin use-package tabbar slime-theme slime-ritz slime-docker slime-company slime-annot slim-mode paredit neotree darcula-theme cmm-mode cmds-menu auto-org-md))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

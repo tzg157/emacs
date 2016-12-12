@@ -12,6 +12,9 @@
 (global-set-key (kbd "M-o")  'mode-line-other-buffer)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 交换buffer结束
 
+;;;;;;;;;; 跳到指定行
+(global-set-key (kbd "C-c l") 'goto-line)
+
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 最近打开开始
 ;(set-frame-font "Liberation Mono-13")
