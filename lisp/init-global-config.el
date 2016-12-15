@@ -79,4 +79,13 @@ nil 0 nil "_NET_WM_STATE" 32
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 
+
+;;;;;;;;;;;;;;;;;;;;;;括号自动换行
+(when (fboundp 'electric-pair-mode) 
+(electric-pair-mode)) 
+(when (eval-when-compile (version< "24.4" emacs-version)) 
+(electric-indent-mode 1))
+
+
+
 (provide 'init-global-config)

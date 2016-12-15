@@ -33,6 +33,11 @@
 (require 'init-php)           ;; 加载php相关配置
 (require 'init-git)           ;; 加载magit
 (require 'init-github)        ;; 加载magithub
+(require 'init-geben)         ;; 加载php调试
+(require 'init-smartparens)   ;; 自动填充括号配置
+
+;; (require 'init-eldoc)         ;; 加载eldoc，minibuffer提示
+;; (require 'init-paredit)       ;; 加载parcell
 
 ;;(require 'init-eclim)         ;; 加载eclim相关配置
 
@@ -44,7 +49,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-	(smex magit-svn magithub company-emacs-eclim eclim helm-company helm-git magit helm-smex company-php ac-php helm-grepint php-auto-yasnippets php+-mode projectile ggtags session find-file-in-project helm flycheck company popwin use-package tabbar slime-theme slime-ritz slime-docker slime-company slime-annot slim-mode paredit neotree darcula-theme cmm-mode cmds-menu auto-org-md))))
+	(smartparens paredit-everywhere eldoc-extension eldoc-eval autopair ac-c-headers ac-slime ac-html ac-helm geben-helm-projectile geben psvn tide smex magit-svn magithub company-emacs-eclim eclim helm-company helm-git magit helm-smex company-php ac-php helm-grepint php-auto-yasnippets php+-mode projectile ggtags session find-file-in-project helm flycheck company popwin use-package tabbar slime-theme slime-ritz slime-docker slime-company slime-annot slim-mode paredit neotree darcula-theme cmm-mode cmds-menu auto-org-md))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
