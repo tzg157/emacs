@@ -3,7 +3,13 @@
 (tool-bar-mode -1)       ;; 禁用工具条
 (scroll-bar-mode -1)     ;; 禁用滚动条
 ;; (menu-bar-mode -1)       ;; 禁用菜单栏
+
+;;;;;;;; 高亮
+(global-hl-line-mode t) ;;高亮当前行
+(global-auto-highlight-symbol-mode t) ;; 高亮当前symbol
+
 (global-set-key [C-f6] 'global-linum-mode)    ;; 全局显示行号
+(column-number-mode t)
 (show-paren-mode t)      ;; 显示括号匹配
 (setq inhibit-startup-message t)  ;; 禁用启动画面
 (setq display-battery-mode t)   ;;???????????

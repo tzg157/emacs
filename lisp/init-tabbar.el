@@ -1,7 +1,7 @@
 ;; init-tabbar
 
-(global-set-key [M-left] 'tabbar-backward-tab)
-(global-set-key [M-right] 'tabbar-forward-tab)
+(global-set-key (kbd "C-M-j") 'tabbar-backward-tab)
+(global-set-key (kbd "C-M-k") 'tabbar-forward-tab)
 
 (require 'tabbar)
 (tabbar-mode t)
